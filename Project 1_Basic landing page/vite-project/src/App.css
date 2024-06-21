@@ -39,3 +39,77 @@ nav div button{
     border: none;
     padding: 5px;
 }
+
+
+
+
+/* -------- home section ------- */
+
+.home_sec{
+    display: flex;
+    margin-top: 4%;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* margin-left: 30%; */
+    position: relative;
+    left: 18%;
+}
+
+
+
+.left h1{
+    width: 70%;
+    line-height: 93%;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 3%;
+}
+
+.left p{
+    width: 47%;
+    margin-bottom: 2%;
+}
+
+.left img{
+    width: 12%;
+    height: 12%;
+    margin-bottom: 2%;
+}
+
+.left button{
+    font-size: 24px;
+    margin-bottom: 7%;
+}
+
+.left div{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+   
+    color: white;
+}
+
+
+
+
+
+.right{
+    display: flex;
+    justify-content: center;
+}
+
+.right img{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    left: 10%;
+    top: 50px;
+}
+

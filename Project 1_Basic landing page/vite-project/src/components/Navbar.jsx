@@ -1,7 +1,19 @@
 
 import React from "react"
+import NavigationIcon from '@mui/icons-material/Navigation';
+import Fab from '@mui/material/Fab';
 
 function Navbar() {
+
+  const customstyle1={
+    color: "white",
+    backgroundColor: "red",
+    border:"none",
+    // padding:"2px",
+    width:"120px"
+    
+       };
+
     return(
         <div>
       <nav>
@@ -14,7 +26,11 @@ function Navbar() {
             <li>CONTACT</li>
           </ul>
         </div>
-        <div><button type="button">Login</button></div>
+        <div>  <Fab variant="extended" style={customstyle1} >
+       
+        LOGIN
+      </Fab></div>
+      
       </nav>
     </div>
     );
